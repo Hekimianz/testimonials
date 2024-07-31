@@ -21,9 +21,9 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 
 ### Screenshot
+<img src="./mobileScreen.png" height="800" />
+<img src="./desktopScreen.png"  />
 
-![](./mobileScreen.png)
-![](./desktopScreen.png)
 
 ### Links
 
