@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ecf2f8;
+}
+
+main {
+  width: 100%;
+  color: #fff;
+  font-family: "Barlow Semi Condensed";
+}
+
+.cards__cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 71px 24px;
+  gap: 24px;
+}
+
+.card {
+  padding: 32px;
+  border-radius: 8px;
+  background-color: #fff;
+  max-width: 327px;
+}
+
+.card__author--cont {
+  display: flex;
+  gap: 17px;
+  margin-bottom: 18px;
+  font-weight: 500;
+}
+
+.card__author--avatar {
+  border-radius: 50%;
+  border: 2px solid #a775f1;
+  width: 28px;
+  height: 28px;
+}
+
+.card__author--nameCont {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  gap: 4px;
+  line-height: 13px;
+}
+
+.card__author--verified {
+  font-size: 11px;
+  opacity: 0.5;
+  line-height: 11px;
+}
+
+.card__text--first {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.card__text--second {
+  opacity: 0.5;
+  line-height: 18px;
+  font-size: 13px;
+  width: 250px;
+}
+
+.card:first-of-type {
+  background-image: url(./images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: 90% 0%;
+  background-color: #733fc8;
+}
+
+.card:nth-of-type(2) {
+  background-color: #48556a;
+}
+
+.card:nth-of-type(2) img,
+.card:nth-of-type(3) img,
+.card:nth-of-type(5) img {
+  border: none;
+}
+
+.card:first-of-type .card__text--first {
+  margin-bottom: 40px;
+}
+
+.card:nth-of-type(3),
+.card:nth-of-type(5) {
+  color: #48556a;
+}
+
+.card:nth-of-type(4) {
+  background-color: #19202d;
+}
